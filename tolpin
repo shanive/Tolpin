@@ -1,0 +1,12 @@
+print "Please enter your name"
+ 
+name = raw_input()
+ 
+print "Hello,",name,"How are you(from 1 to 10)?"
+ 
+mood = raw_input()
+ 
+if int(mood) > 5:
+    print "I'm happy that you feel good"
+else:
+    print "Oh, I'm so sorry to hear that you aren't well"
